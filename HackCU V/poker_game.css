@@ -1,10 +1,6 @@
 
 
 /* green oval table */
-
-
-
-
 .table {
   height:500px;
   width: 90% !important;
@@ -49,7 +45,6 @@ img {
 	margin-left: 415px;
 	width: 40% !important;
 
-	background-color: brown;
 }
 
 /*aligns cards */
@@ -60,3 +55,6 @@ img {
 	padding: 0 !important;
 }
 
+.hidden {
+	display: none;
+}

@@ -5,12 +5,12 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<script src="poker_game.js"></script>
 </head>
-<body>
+<body onload="dealCards()">
 	<div class="table">
 		<div class=container>
 			<div class="row1">
 				<div class="col">
-					Pot
+					<p id="pot">Pot</p>
 				</div>
 			</div>
 			<div class="row2">
@@ -43,7 +43,12 @@
 
 	<br>
 	<br>
-	<button onclick=flipCard()>Flip Card</button>
+	<button id="flipButton" onclick=flipCard()>Flip Card</button>
+	<button id="betButton" onclick=fillPot()>Make Bet</button>
+
+
+	<table id="playerTable"></table>
+	<table id="tableData"></table>
 
 </body>
 </html>
