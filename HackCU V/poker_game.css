@@ -1,0 +1,62 @@
+
+
+/* green oval table */
+
+
+
+
+.table {
+  height:500px;
+  width: 90% !important;
+  background-image: url("table.jpg");
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left:50px;
+
+}
+
+
+/* Pot */
+.row1 {
+	padding-top: 125px;
+	margin-left: 315px;
+	margin-top: 35px;
+	width: 35%;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	text-align: : center;
+	border: 5px white;
+
+}
+
+
+/* Table cards */
+.row2 {
+	padding-top: 50px;
+	margin-left: 200px !important;
+}
+
+/* card image */
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Player's cards */
+.row3 {
+	margin-top: 185px;
+	margin-left: 415px;
+	width: 40% !important;
+
+	background-color: brown;
+}
+
+/*aligns cards */
+.col-centered{
+	float: none;
+	margin: 0 auto;
+	margin: 25px;
+	padding: 0 !important;
+}
+
